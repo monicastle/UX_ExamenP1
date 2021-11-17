@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Universidad</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 55px;
+            color: #003333;
+        }
+
+        .subtitulo {
+            text-align: center;
+            font-family: 'Fjalla One', sans-serif;
+            font-size: 30px;
+            color: #003333;
+        }
+
+        h2 {
+            font-family: 'Fjalla One', sans-serif;
+            color: #003333;
+        }
+
+        h3 {
+            font-family: 'Fjalla One', sans-serif;
+            color: #003333;
+        }
+
+        p {
+            text-align: justify;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        /* Estilo Imagenes */
+        .fotos {
+            border: 5px solid #0D4D4D;
+            transition: 0.1s ease-in-out;
+        }
+
+        .fotos:hover {
+            border: 5px solid #407F7F;
+        }
+
+        .camp {
+            border: 5px solid #0D4D4D;
+            transition: 0.1s ease-in-out;
+        }
+
+        .camp:hover {
+            border: 5px solid #407F7F;
+        }
+
+        /* Estilo Descripcion Imagen*/
+        #cap {
+            text-align: center;
+            color: #003333;
+        }
+
+        footer {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #669999;
+            line-height: 2.5;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        body {
+            margin-left: 1in;
+            margin-right: 1in;
+        }
+    </style>
+</head>
+
+<body style="background-color:#226666">
+    <h1>CONOCE NUESTRA UNIVERSIDAD</h1>
+    <h2 class="subtitulo">RECORRIDO COMPLETO</h2>
+    <br>
+
+    <section>
+        <h2>CAMPUS</h2>
+        <p> Nuestro campus está conformado por: Varios edificios para recibir clases, laboratorios modernos, canchas,
+            una cafetería y un polideportivo. Los estudiantes pueden acceder a todas estas instalaciones y gozar de cada
+            una de ellas a cualquier hora y en cualquier momento.</p>
+        <center>
+            <img class="camp" width="640" height="426" onmouseout="src='./imagenes/Campus1.jpg';"
+                onmouseover="src='./imagenes/Campus2.jpg';" src='./imagenes/Campus1.jpg' />
+            <p id="cap">Nuestro campus universitario.</p>
+        </center>
+        <br>
+    </section>
+
+    <article>
+        <h2>EXPERIENCIA EN NUESTRO CAMPUS</h2>
+        <br>
+        <h3>Polideportivo</h3>
+        <p>Nuestra universidad cuenta con un gran polideportivo ubicado en el centro de ella. Esté es lo
+            suficientemente grande para alojar un total de 2000 personas, dentro de él existen numerosas habitaciones en
+            las cuales se pueden practicar diferentes deportes. Entre estos están: Futbol Sala, Voleibol, Básquetbol,
+            Yoga, Danza Artística y Zumba. También se cuenta con un gran gimnasio ubicado en el segundo nivel del
+            polideportivo, aquí se pueden encontrar todo tipo de máquinas y artículos deportivos para que puedas contar
+            con todo lo necesario para ejercitarte. Si quieres tomar una ducha por lo sudado que estas puedes hacerlo en
+            la área de duchas dentro del mismo polideportivo, con el propósito de brindar una experiencia completa a los
+            estudiantes. Pero no todo es sobre deporte, nuestro polideportivo también cuenta con un área de recreación
+            para todo aquel que quiera pasar un tiempo distrayéndose con algunos juegos o actividades preparadas para
+            ti. Ahora, ¿Qué pasa si no quieres ejercitarte o jugar un juego?, para eso existe una área de estudio y
+            lectura por si lo que quieres es estudiar a gusto y sin distracciones. Nuestro polideportivo está diseñado
+            para que todo alumno pueda realizar cualquier actividad y pueda pasar su tiempo en él. </p>
+        <center>
+            <img class="fotos" width="600" height="405" src="./imagenes/Polideportivo.jpg" />
+            <p id="cap">Polideportivo</p>
+        </center>
+        <br>
+        <h3>Cafetería</h3>
+        <p>Nuestra universidad cuenta con una amplia cafetería donde cualquier persona hambrienta puede llegar y escoger
+            entre las diferentes ofertas gastronómicas que hay en nuestros restaurantes. Desde desayunos hasta platos
+            fuertes, toda opción de comida la puedes encontrar aquí. Podemos encontrar restaurantes de comida mexicana,
+            italiana, hondureña, china y estadounidense. Entre las opciones que podemos encontrar están: baleadas,
+            desayunos, quesadillas, plato típico, pizza, arroz chino, tacos, hamburguesas, chapsui, nuggets de pollo,
+            pastas y muchas cosas más. Una vez que hayas comprado tu deliciosa comida puedes tomar asiento en las
+            numerosas mesas ubicadas en toda la cafetería, desde mesas para ti solo hasta mesas para ti y todos tus
+            amigos. Puedes escoger el asiento, que más te guste y así disfrutar de tu rica comida tranquilamente. </p>
+        <center>
+            <img class="fotos" width="600" height="405" src="./imagenes/Cafeteria.jpg" />
+            <p id="cap">Cafetería</p>
+        </center>
+        <br>
+        <h3>Laboratorio</h3>
+        <p>Para que puedas practicar todo lo visto en tus clases, contamos con distintos laboratorios modernos para
+            muchas de nuestras carreras. Tenemos laboratorios de robótica, física, biología, medicina, diseño de modas,
+            ecología, electrónica, telecomunicaciones, programación, gastronomía, diseño gráfico, animación, biomédica,
+            mecatrónica,
+            arquitectura, industrial, energía, civil entre otras más carreras y clases. Cada laboratorio cuenta con el
+            respectivo equipo correspondiente para realizar las prácticas y sobre todo el equipo necesario de protección
+            y seguridad para mantener a cada uno de nuestros estudiantes y docentes a salvo. Modernas máquinas y
+            computadoras están ubicadas en cada sala, con el propósito de brindar la mejor de los aprendizajes en cada
+            laboratorio. </p>
+        <center>
+            <img class="fotos" width="600" height="405" src="./imagenes/Laboratorio.jpg" />
+            <p id="cap">Laboratorio de Robótica</p>
+        </center>
+        <br>
+    </article>
+
+    <footer>Este trabajo está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia
+            de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>.
+    </footer>
+    <br>
+
+</body>
+
+</html>
